@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-gateway-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-gateway-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-gateway-header h1 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+.auth-gateway-form {
+  margin-bottom: 20px;
+}
+
+.auth-gateway-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.auth-gateway-form input[type="text"], .auth-gateway-form input[type="password"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-gateway-form input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-gateway-form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.auth-gateway-error {
+  color: #f00;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.auth-gateway-success {
+  color: #0f0;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
